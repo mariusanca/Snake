@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snake</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" href="./favicon.png">
+  </head>
+  <body>
+    <h1>Snake game</h1>
+    <div id="game-frame">
+      <button type="button" class="btn btn-primary" onclick="startGame()">Start Game</button>
+      <div class="control-text"><h5>Control the snake using the keyboard arrows or use the buttons on the screen</h5></div>
+    </div>
+    <div hidden id="score"></div>
+    <div id="restart-button"></div>
+    <br>
+    <div class="up-button">
+      <button type="button" class="button-up" id="up-btn" onclick="changeDirection('UP')">&#8593</button>
+    </div>
+    <div class="direction-buttons">
+      <button type="button" class="buttons" id="left-btn" onclick="changeDirection('LEFT')">&#8592</button>
+      <button type="button" class="buttons" id="down-btn" onclick="changeDirection('DOWN')">&#8595</button>
+      <button type="button" class="buttons" id="right-btn" onclick="changeDirection('RIGHT')">&#8594</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+    width: 600px;
+}
+
+h1 {
+    margin-left: 80px;
+    color: rgb(3, 3, 65);
+    font-weight: 700;
+}
+
+button {
+    margin-left: 130px;
+}
+
+#game-frame {
+    width: 405px;
+    height: 405px;
+}
+
+#snake-frame {
+    width: 405px;
+    height: 405px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+
+#empty-box {
+    float:left;
+    clear:none;  
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+#snake-box {
+    float:left;
+    clear:none;  
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+#food-box {
+    float:left;
+    clear:none;  
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    font-size: 19px;
+}
+
+#food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#game-over {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 396px;
+}
+
+#points {
+    text-align: center;
+    width: 396px;
+    height: 136px;
+    background-color: white;
+    margin: auto;
+}
+
+#score {
+    width: 405px;
+    margin-left: 0px;
+    display:inline-flex;
+    text-align: left;
+    border-width:1px;
+    border-style:solid;
+    border-top: 0;
+    border-color:black;
+}
+
+#game-speed {
+    margin-left: 75px;
+}
+
+#restart {
+    margin-top: 25px;
+}
+
+h4 {
+    margin-left: 25px;
+}
+
+.up-button {
+    width: 405px;
+    align-items: center;
+}
+
+.direction-buttons {
+    margin-top: 10px;
+    width: 405px;
+    display: inline;
+    margin-left: 0px;
+}
+
+.control-text {
+    text-align: center;
+    width: 400px;
+    margin-top: 50px;
+    color: rgb(39, 26, 157);
+}
+
+.buttons {
+    background-color: rgb(141, 141, 141);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 2.4%;
+}
+
+.button-up {
+    background-color: rgb(141, 141, 141);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+}
