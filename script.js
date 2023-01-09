@@ -57,7 +57,7 @@ function snakeEat() { //when the snake find an apple he is growing in size and a
 function endGame() { //when the snake crashes the game is ending
     clearInterval(myInterval);
     gameOver = true;
-    document.getElementById('snake-frame').innerHTML = `<div id="snake-frame"><img src="Pictures/gameOver.JPG" id="game-over">
+    document.getElementById('snake-frame').innerHTML = `<div id="snake-frame"><img src="Pictures/gameOver.jpg" id="game-over">
     <h1 id="points">You scored ${snakeSize} points!</h1>
     </div>
     `;
